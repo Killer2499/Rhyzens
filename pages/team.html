@@ -33,6 +33,48 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
   a:link{
     text-decoration:none;
   }
+  .card{
+    border:5px solid white;box-sizing:border-box; transition:.5s; padding-right:10px;padding-left:10px;
+}
+.imgbox{
+	width:100%;  overflow:hidden;
+
+}
+.imgbox img{
+	width:100%; transition:.5s; transform-origin:top-right;height:170px;
+}
+ .card:hover .imgbox img{
+	 transform:scale(1.3);
+ }
+ .card ul{
+	 margin:0px; padding:0px; display:flex; width:100%; height:0px; overflow:hidden; transition:.5s;
+ }
+ .card:hover ul{
+	 height:50px;
+ }
+ .card ul li{
+	 list-style:none; width:40%; height:50px;
+
+ }
+  .card ul li a{
+    display:block; line-height:50px; text-align:center; background:#262626; background-color:white;
+     font-size:20px; border-right:1px solid black;color:black;
+  }
+   .card ul li a:hover{
+   background-color: #85C1E9    ; color:black;
+   }
+   .card ul li:last-child a{
+   border-right:none;
+   }
+   .content1{
+	   color:white; background:#F5B041; padding:20px 10px; text-align:center;
+   }
+   .content1 h3{
+	   margin:0px; padding:0px; font-size:25px; color:black;font-family:'Oswald',sans-serif;
+   }
+   .content1 p{
+	   margin:10px 0px 0px; padding:0px; color:#ff0;
+	}
 
 </style>
 </head>
@@ -119,115 +161,265 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 
                 <h1 style="font-size:350%;font-family:'Oswald',sans-serif;text-align:center;" class="">The Team</h1>
                 <div class="line" style="height:2px;width:100px;background:yellow;margin:0px auto"></div>
-                <p style="font-size:150%;font-family:'Dosis',sans-serif;padding-top:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                 aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                 Exce.</p>
+                <p style="font-size:180%;font-family:'Dosis',sans-serif;padding-top:20px;">
+                Rhyzens is a non - profit organization that was founded on the ideology that the field of medicine 
+                must extend much beyond professional life and take an active role in societal issues.
+                Rhyzens intends to be a beacon in the lives of future medicos by assaying the importance of a 
+                doctor in community service and make it a socially - acceptable norm.</p>
+
+                 <div class="row">
+                   <div class="col-md-4"></div>
+                   <div class="col-md-4" style="text-align:center;margin:0px auto;padding:20px;">
+                      <div class="card" style="float:left;margin:0px auto;">
+                          <div class="imgbox"><img src="../images/demo/team/sanjai.jpg" style="height:250px;"></div>
+                          <ul>
+                          <li><a href="https://www.instagram.com/sanjai_singavarapu/"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                          <li><a href="https://www.instagram.com/sanjai_singavarapu/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                  
+                  
+                          </ul>
+                          <div class="content1" style="font-family:'Oswald',sans-serif;">
+                          <h3 style="padding:2px;">Sanjai Singavarapu</h3>
+                          <span style="font-size:170%;">Team Leader<span>
+                          
+                          </div>
+                          </div>
+
+                   </div>
+                   <div class="col-md-4"></div>
+                 </div>
             
-                 <div class="row" style="padding-top:10px;">
+                 <div class="row" style="">
                    <div class="col-md-3" style="text-align:center;padding:10px;">
-                     <div class="row">
-                     <img src="../images/demo/eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
-                     </div>
-                     <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;text-align:center;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna   
-                        <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
-                        <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
-                        <i class="fab fa-3x fa-twitter-square"></i>          
+                    <div class="card" style="float:left;">
+                      <div class="imgbox"><img src="../images/demo/team/mounika.jpg"></div>
+                      <ul>
+                      <li><a href="https://www.facebook.com/mounika.narlajarla"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.instagram.com/mounikanarlajarla/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+              
+              
+                      </ul>
+                      <div class="content1" style="font-family:'Oswald',sans-serif;">
+                      <h3 style="padding:2px;">Mounika Narlajarla</h3>
+                      <span style="font-size:150%;">Chief Organizer</span>
+                      
                       </div>
+                      </div>
+              
                    </div>
                    <div class="col-md-3" style="text-align:center;padding:10px;">
-                      <div class="row">
-                      <img src="../images/demo/eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
+                    <div class="card" style="float:left;">
+                      <div class="imgbox"><img src="../images/demo/eve.jpg"></div>
+                      <ul>
+                      <li><a href="https://www.facebook.com/tejkiran.gunturi"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.instagram.com/tejkirangunturi/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+              
+              
+                      </ul>
+                      <div class="content1" style="font-family:'Oswald',sans-serif;">
+                      <h3 style="padding:2px;">Tej Kiran Gunturi</h3>
+                      <span style="font-size:150%;">Chief Organizer</span>
+
                       </div>
-                      <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;">
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                         sed do eiusmod tempor incididunt ut labore et dolore magna   
-                         <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
-                         <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
-                         <i class="fab fa-3x fa-twitter-square"></i>                     
-                       </div>
+                      </div>
+              
                     </div>
                     <div class="col-md-3" style="text-align:center;padding:10px;">
-                        <div class="row" >
-                        <img src="../images/demo/eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
+                      <div class="card" style="float:left;">
+                        <div class="imgbox"><img src="../images/demo/team/gopi.jpg"></div>
+                        <ul>
+                        <li><a href="https://www.facebook.com/bhukya.gopinaik.1"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/gopi_naik.b/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                
+                
+                        </ul>
+                        <div class="content1" style="font-family:'Oswald',sans-serif;">
+                         <h3 style="padding:2px;">Gopi Nayak Bhukya</h3>
+                      <span style="font-size:150%;">Associate Organizer</span>
+                        
                         </div>
-                        <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;">
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                           sed do eiusmod tempor incididunt ut labore et dolore magna 
-                           <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
-                           <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
-                           <i class="fab fa-3x fa-twitter-square"></i>                       
-                         </div>
+                        </div>
+                
                       </div>
                       <div class="col-md-3" style="text-align:center;padding:10px;">
-                          <div class="row">
-                          <img src="../images/demo/eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
+                        <div class="card" style="float:left;">
+                          <div class="imgbox"><img src="../images/demo/team/swetha.jpg"></div>
+                          <ul>
+                          <li><a href="https://www.facebook.com/shweta.swati.3"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                          <li><a href="https://www.instagram.com/sanjai_singavarapu/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                  
+                  
+                          </ul>
+                          <div class="content1" style="font-family:'Oswald',sans-serif;">
+                              <h3 style="padding:2px;">Swetha Bhyri</h3>
+                              <span style="font-size:150%;">Associate Organizer</span>
                           </div>
-                          <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                             sed do eiusmod tempor incididunt ut labore et dolore magna  
-                             <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
-                             <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
-                             <i class="fab fa-3x fa-twitter-square"></i>                      
-                           </div>
+                          </div>
+                  
                         </div>
                  </div>
 
                  
                  <div class="row" style="padding-top:10px;">
                         <div class="col-md-3" style="text-align:center;padding:10px;">
-                          <div class="row">
-                          <img src="../images/demo/eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
-                          </div>
-                          <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;text-align:center;">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                             sed do eiusmod tempor incididunt ut labore et dolore magna   
-                             <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
-                             <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
-                             <i class="fab fa-3x fa-twitter-square"></i>          
-                           </div>
+                          <div class="card" style="float:left;">
+                            <div class="imgbox"><img src="../images/demo/team/sanath.jpg"></div>
+                            <ul>
+                            <li><a href="https://www.facebook.com/sanjaisanath"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/im._.killer/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                    
+                    
+                            </ul>
+                            <div class="content1" style="font-family:'Oswald',sans-serif;">
+                                <h3 style="padding:2px;">Sanath Singavarapu</h3>
+                                <span style="font-size:150%;">Technical Consultant</span>
+                            
+                            </div>
+                            </div>
+                    
                         </div>
                         <div class="col-md-3" style="text-align:center;padding:10px;">
-                           <div class="row">
-                           <img src="../images/demo/eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
-                           </div>
-                           <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                              sed do eiusmod tempor incididunt ut labore et dolore magna   
-                              <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
-                              <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
-                              <i class="fab fa-3x fa-twitter-square"></i>                     
+                          <div class="card" style="float:left;">
+                            <div class="imgbox"><img src="../images/demo/team/vamsi.jpg"></div>
+                            <ul>
+                            <li><a href="https://www.facebook.com/kuyavam"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/ivamsi.k/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                    
+                    
+                            </ul>
+                            <div class="content1" style="font-family:'Oswald',sans-serif;">
+                                <h3 style="padding:2px;">Vamsi Chekuri</h3>
+                                <span style="font-size:150%;">Technical Consultant</span>
+                            
+                            
                             </div>
+                            </div>
+                    
                          </div>
                          <div class="col-md-3" style="text-align:center;padding:10px;">
-                             <div class="row" >
-                             <img src="../images/demo/eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
-                             </div>
-                             <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                                <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
-                                <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
-                                <i class="fab fa-3x fa-twitter-square"></i>                       
-                              </div>
+                          <div class="card" style="float:left;">
+                            <div class="imgbox"><img src="../images/demo/team/diana1.jpg"></div>
+                            <ul>
+                            <li><a href="https://www.facebook.com/dianapriya.adari"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/sanjai_singavarapu/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                    
+                    
+                            </ul>
+                            <div class="content1" style="font-family:'Oswald',sans-serif;">
+                                <h3 style="padding:2px;">Diana Priya</h3>
+                                <span style="font-size:150%;">Lead Facilitator</span>
+                            
+                            
+                            </div>
+                            </div>
+                    
                            </div>
                            <div class="col-md-3" style="text-align:center;padding:10px;">
-                               <div class="row">
-                               <img src="../images/demo/eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
-                               </div>
-                               <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                  sed do eiusmod tempor incididunt ut labore et dolore magna  
-                                  <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
-                                  <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
-                                  <i class="fab fa-3x fa-twitter-square"></i>                      
-                                </div>
+                            <div class="card" style="float:left;">
+                              <div class="imgbox"><img src="../images/demo/team/sidharth.jpg"></div>
+                              <ul>
+                              <li><a href="https://www.facebook.com/sanjai.singavarapu.2130"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                              <li><a href="https://www.instagram.com/sanjai_singavarapu/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                      
+                      
+                              </ul>
+                              <div class="content1" style="font-family:'Oswald',sans-serif;">
+                                  <h3 style="padding:2px;">Sidhardh Kanisetti</h3>
+                                  <span style="font-size:150%;">Lead Facilitator</span>
+                              
+                              </div>
+                              </div>
                              </div>
                       </div>
+
+                      <div class="row" style="padding-top:10px;">
+                          <div class="col-md-3" style="text-align:center;padding:10px;">
+                            <div class="card" style="float:left;">
+                              <div class="imgbox"><img src="../images/demo/eve.jpg"></div>
+                              <ul>
+                              <li><a href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                              <li><a href="https://www.instagram.com/bhuvana_0107/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                      
+                      
+                              </ul>
+                              <div class="content1" style="font-family:'Oswald',sans-serif;">
+                                  <h3 style="padding:2px;">Bhuvaneswari Ramisetty</h3>
+                                  <span style="font-size:150%;">Lead Coordinator</span>
+                              
+                              </div>
+                              </div>
+                      
+                          </div>
+                          <div class="col-md-3" style="text-align:center;padding:10px;">
+                            <div class="card" style="float:left;">
+                              <div class="imgbox"><img src="../images/demo/team/baji.jpg"></div>
+                              <ul>
+                              <li><a href="https://www.facebook.com/baji.pusala.3"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                              <li><a href="https://www.instagram.com/vitalbaji/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                      
+                      
+                              </ul>
+                              <div class="content1" style="font-family:'Oswald',sans-serif;">
+                                  <h3 style="padding:2px;">Baji Pusala</h3>
+                                  <span style="font-size:150%;">Lead Coordinator</span>
+                              
+                              
+                              </div>
+                              </div>
+                      
+                           </div>
+                           <div class="col-md-3" style="text-align:center;padding:10px;">
+                            <div class="card" style="float:left;">
+                              <div class="imgbox"><img src="../images/demo/eve.jpg"></div>
+                              <ul>
+                              <li><a href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                      
+                      
+                              </ul>
+                              <div class="content1" style="font-family:'Oswald',sans-serif;">
+                                  <h3 style="padding:2px;">Bhargavi Sai Priya</h3>
+                                  <span style="font-size:150%;"> Facilitator</span>
+                              
+                              
+                              </div>
+                              </div>
+                      
+                             </div>
+                             <div class="col-md-3" style="text-align:center;padding:10px;">
+                              <div class="card" style="float:left;">
+                                <div class="imgbox"><img src="../images/demo/eve.jpg"></div>
+                                <ul>
+                                <li><a href="https://www.facebook.com/inturi.srinidhi"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+                        
+                        
+                                </ul>
+                                <div class="content1" style="font-family:'Oswald',sans-serif;">
+                                    <h3 style="padding:2px;">Tejaswini Yerraguntala</h3>
+                                    <span style="font-size:150%;"> Facilitator</span>
+                                
+                                </div>
+                                </div>
+                               </div>
+                        </div>
     
             </div>
+
+            
     
 </div>
 
